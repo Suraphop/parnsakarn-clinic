@@ -7,7 +7,7 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-6 text-thai-heading">
-              เกี่ยวกับPansakarn Clinic 
+              เกี่ยวกับ Pansakarn Clinic 
             </h2>
             <div className="w-24 h-1 bg-gradient-primary rounded-full mb-8"></div>
             

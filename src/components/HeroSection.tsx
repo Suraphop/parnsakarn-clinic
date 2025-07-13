@@ -17,7 +17,7 @@ const HeroSection = () => {
             </div>
             
             <p className="text-xl lg:text-2xl text-muted-foreground mb-8 text-thai-body max-w-xl mx-auto lg:mx-0">
-              การรักษาแบบแพทย์แผนจีนดั้งเดิม ด้วยประสบการณ์และความเชี่ยวชาญโดยผู้เชี่ยวชาญด้านแพทย์แผนจีน
+              การรักษาแบบแพทย์แผนจีนดั้งเดิม ด้วยประสบการณ์โดยผู้เชี่ยวชาญด้านแพทย์แผนจีน
               เพื่อสุขภาพที่ดีของคุณ
             </p>
             
@@ -42,7 +42,7 @@ const HeroSection = () => {
             <div className="mt-12 grid grid-cols-3 gap-8 text-center lg:text-left">
               <div>
                 <div className="text-3xl font-bold text-primary">ให้บริการ</div>
-                <div className="text-sm text-muted-foreground">โดยผู้เขี่ยวชาญด้านแพทย์แผนจีน</div>
+                <div className="text-sm text-muted-foreground">โดยผู้เชี่ยวชาญด้านแพทย์แผนจีน</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-primary">1000+</div>
