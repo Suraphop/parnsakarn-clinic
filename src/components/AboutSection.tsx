@@ -7,13 +7,13 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-6 text-thai-heading">
-              เกี่ยวกับคลินิกภาณุศักดิ์
+              เกี่ยวกับPansakarn Clinic 
             </h2>
             <div className="w-24 h-1 bg-gradient-primary rounded-full mb-8"></div>
             
             <div className="space-y-6 text-thai-body">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                คลินิกภาณุศักดิ์ก่อตั้งขึ้นด้วยความมุ่งมั่นในการนำเสนอการรักษาแบบแพทย์แผนจีนดั้งเดิมที่มีประสิทธิภาพ 
+                Pansakarn Clinic ก่อตั้งขึ้นด้วยความมุ่งมั่นในการนำเสนอการรักษาแบบแพทย์แผนจีนดั้งเดิมที่มีประสิทธิภาพ 
                 ผสมผสานกับความรู้สมัยใหม่ เพื่อให้ผู้ป่วยได้รับการรักษาที่ดีที่สุด
               </p>
               
@@ -23,7 +23,7 @@ const AboutSection = () => {
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                ด้วยประสบการณ์กว่า 20 ปี และการศึกษาอย่างต่อเนื่องในศาสตร์แพทย์แผนจีน 
+                ด้วยประสบการณ์และการศึกษาอย่างต่อเนื่องในศาสตร์แพทย์แผนจีน 
                 เรามั่นใจว่าจะสามารถช่วยให้คุณมีสุขภาพที่ดีขึ้นได้
               </p>
             </div>
@@ -35,8 +35,8 @@ const AboutSection = () => {
                     <Award className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-primary">20+</div>
-                    <div className="text-sm text-muted-foreground">ปีประสบการณ์</div>
+                    <div className="text-2xl font-bold text-primary">ให้บริการ</div>
+                    <div className="text-sm text-muted-foreground">โดยผู้เขี่ยวชาญด้านแพทย์แผนจีน</div>
                   </div>
                 </div>
               </div>
@@ -67,7 +67,7 @@ const AboutSection = () => {
                     <Heart className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-primary mb-2">การรักษาด้วยความเมtta</h4>
+                    <h4 className="font-semibold text-primary mb-2">การรักษาด้วยความเมตตา</h4>
                     <p className="text-muted-foreground text-sm text-thai-body">
                       เราดูแลผู้ป่วยด้วยความเข้าใจและความเอาใจใส่ เหมือนดูแลครอบครัวของตนเอง
                     </p>

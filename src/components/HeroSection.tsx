@@ -11,13 +11,13 @@ const HeroSection = () => {
           <div className="text-center lg:text-left">
             <div className="mb-6">
               <h1 className="text-5xl lg:text-7xl font-bold text-primary mb-4 text-thai-heading">
-                คลินิกภาณุศักดิ์
+                Pansakarn Clinic
               </h1>
               <div className="w-24 h-1 bg-gradient-primary mx-auto lg:mx-0 rounded-full"></div>
             </div>
             
             <p className="text-xl lg:text-2xl text-muted-foreground mb-8 text-thai-body max-w-xl mx-auto lg:mx-0">
-              การรักษาแบบแพทย์แผนจีนดั้งเดิม ด้วยประสบการณ์และความเชี่ยวชาญกว่า 20 ปี 
+              การรักษาแบบแพทย์แผนจีนดั้งเดิม ด้วยประสบการณ์และความเชี่ยวชาญโดยผู้เชี่ยวชาญด้านแพทย์แผนจีน
               เพื่อสุขภาพที่ดีของคุณ
             </p>
             
@@ -41,8 +41,8 @@ const HeroSection = () => {
             
             <div className="mt-12 grid grid-cols-3 gap-8 text-center lg:text-left">
               <div>
-                <div className="text-3xl font-bold text-primary">20+</div>
-                <div className="text-sm text-muted-foreground">ปีประสบการณ์</div>
+                <div className="text-3xl font-bold text-primary">ให้บริการ</div>
+                <div className="text-sm text-muted-foreground">โดยผู้เขี่ยวชาญด้านแพทย์แผนจีน</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-primary">1000+</div>

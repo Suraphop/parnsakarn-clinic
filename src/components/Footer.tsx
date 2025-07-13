@@ -7,10 +7,10 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-2">
             <h3 className="text-2xl font-bold mb-4 text-thai-heading">
-              คลินิกภาณุศักดิ์
+              Pansakarn Clinic
             </h3>
             <p className="text-primary-foreground/80 mb-6 text-thai-body leading-relaxed">
-              การรักษาแบบแพทย์แผนจีนดั้งเดิม ด้วยประสบการณ์และความเชี่ยวชาญกว่า 20 ปี 
+              การรักษาแบบแพทย์แผนจีนดั้งเดิม ด้วยผู้เชี่ยวชาญด้านแพทย์แผนจีน
               เพื่อสุขภาพที่ดีของคุณและครอบครัว
             </p>
             <div className="flex items-center space-x-4">
@@ -46,11 +46,11 @@ const Footer = () => {
             <div className="space-y-3 text-primary-foreground/80 text-sm">
               <div className="flex items-start">
                 <MapPin className="h-4 w-4 mr-2 mt-1 flex-shrink-0" />
-                <span>123/45 ถนนรัชดาภิเษก<br />เขตดินแดง กรุงเทพฯ 10400</span>
+                <span>123/45 ถนนณรงค์วิถี (สวน 200ปี)<br />ต.อทัยใหม่ อ.เมือง จ.อุทัยธานี 61000</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-4 w-4 mr-2 flex-shrink-0" />
-                <span>02-XXX-XXXX</span>
+                <span>063-435-3433</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-2 flex-shrink-0" />
@@ -66,7 +66,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center">
           <p className="text-primary-foreground/60 text-sm text-thai-body">
-            © 2024 คลินิกภาณุศักดิ์ สงวนลิขสิทธิ์ทุกอย่าง | Traditional Chinese Medicine Clinic
+            © 2024 Pansakarn Clinic สงวนลิขสิทธิ์ทุกอย่าง | Traditional Chinese Medicine Clinic
           </p>
         </div>
       </div>

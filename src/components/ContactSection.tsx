@@ -21,11 +21,12 @@ const ContactSection = () => {
                 <MapPin className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-primary mb-2">ที่อยู่</h3>
+                <h3 className="text-xl font-semibold text-primary mb-2">
+                  ที่อยู่
+                </h3>
                 <p className="text-muted-foreground text-thai-body">
-                  123/45 ถนนรัชดาภิเษก แขวงดินแดง<br />
-                  เขตดินแดง กรุงเทพมหานคร 10400<br />
-                  ใกล้ MRT รัชดาภิเษก (ทางออก 3)
+                  123/45 ถนนณรงค์วิถี (สวน 200ปี) ต.อทัยใหม่ อ.เมือง จ.อุทัยธานี
+                  61000
                 </p>
               </div>
             </div>
@@ -35,10 +36,11 @@ const ContactSection = () => {
                 <Phone className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-primary mb-2">เบอร์โทรศัพท์</h3>
+                <h3 className="text-xl font-semibold text-primary mb-2">
+                  เบอร์โทรศัพท์
+                </h3>
                 <p className="text-muted-foreground text-thai-body">
-                  02-XXX-XXXX<br />
-                  08X-XXX-XXXX (มือถือ)
+                  063-435-3433
                 </p>
               </div>
             </div>
@@ -48,9 +50,12 @@ const ContactSection = () => {
                 <Mail className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-primary mb-2">อีเมล</h3>
+                <h3 className="text-xl font-semibold text-primary mb-2">
+                  อีเมล
+                </h3>
                 <p className="text-muted-foreground text-thai-body">
-                  info@parnsakarn-clinic.com<br />
+                  info@parnsakarn-clinic.com
+                  <br />
                   appointment@parnsakarn-clinic.com
                 </p>
               </div>
@@ -61,7 +66,9 @@ const ContactSection = () => {
                 <Clock className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-primary mb-2">เวลาทำการ</h3>
+                <h3 className="text-xl font-semibold text-primary mb-2">
+                  เวลาทำการ
+                </h3>
                 <div className="space-y-2 text-muted-foreground text-thai-body">
                   <div className="flex justify-between">
                     <span>จันทร์ - ศุกร์:</span>
@@ -106,27 +113,32 @@ const ContactSection = () => {
                 <p className="text-muted-foreground text-thai-body mb-6">
                   คลิกเพื่อดูเส้นทางไปคลินิก
                 </p>
-                <button className="btn-medical-outline">
+                <a
+                  href="https://maps.app.goo.gl/JGt6n1KqvXJQ74yn8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-medical-outline inline-block"
+                >
                   เปิดใน Google Maps
-                </button>
+                </a>
               </div>
             </div>
 
             {/* Transportation Info */}
             <div className="mt-8 bg-card rounded-xl p-6 shadow-gentle">
-              <h4 className="font-semibold text-primary mb-4">การเดินทาง</h4>
+              <h4 className="font-semibold text-primary mb-4">ที่จอดรถ</h4>
               <div className="space-y-3 text-sm text-muted-foreground text-thai-body">
-                <div className="flex items-center">
+                {/* <div className="flex items-center">
                   <div className="w-2 h-2 bg-primary-glow rounded-full mr-3"></div>
                   <span>MRT รัชดาภิเษก ทางออก 3 (เดิน 5 นาที)</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-2 h-2 bg-primary-glow rounded-full mr-3"></div>
                   <span>รถเมล์สาย 73, 136, 157</span>
-                </div>
+                </div> */}
                 <div className="flex items-center">
                   <div className="w-2 h-2 bg-primary-glow rounded-full mr-3"></div>
-                  <span>มีที่จอดรถ 20 คัน</span>
+                  <span>มีที่จอดรถ 10 คัน บริเวณใกล้เคียง</span>
                 </div>
               </div>
             </div>
